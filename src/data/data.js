@@ -13,11 +13,11 @@ export const navbar = [
     title: "About Invoicer",
     url: "/about",
   },
-  {
-    id: uuidv4(),
-    title: "Suggestion Box",
-    url: "/suggestion-box",
-  },
+  // {
+  //   id: uuidv4(),
+  //   title: "Suggestion Box",
+  //   url: "/suggestion-box",
+  // },
 ]
 
 export const testimonials = [

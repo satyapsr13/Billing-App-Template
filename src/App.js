@@ -19,7 +19,16 @@ export default function App() {
           path="/"
           element={
             <React.Fragment>
-              {user ? (
+              {/* {user ? (
+                <Invoice />
+              ) : (
+                <React.Fragment>
+                  <Home />
+                  <CallToAction />
+                  <Footer />
+                </React.Fragment>
+              )} */}
+              {1==1 ? (
                 <Invoice />
               ) : (
                 <React.Fragment>
@@ -38,5 +47,5 @@ export default function App() {
         <Route path="*" element={<Error />}></Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
